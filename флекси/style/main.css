@@ -1,0 +1,28 @@
+.header {
+    width: 75%;
+    height: 255px;
+    border: 2px solid black ;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    
+}
+.header_logo,.header_menu, .header_donate {
+    width: 30%;
+    height: 225px;
+    /* border: 2px dotted red; */
+    text-align: center;
+}
+.header_menu {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    margin: 15px;
+    width: 50%;
+}
